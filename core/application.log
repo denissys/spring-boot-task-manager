@@ -1,0 +1,679 @@
+2016-03-31 10:38:27.552  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.denissys.springboot.taskmanager.TaskManagerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-03-31 10:38:27.570  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-03-31 10:38:27.583  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2016-03-31 10:38:27.595  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2016-03-31 10:38:27.599  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@23bb8443, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1176dcec, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@120d6fe6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ba2ca36]
+2016-03-31 10:38:27.823 ERROR   --- [main] c.d.s.t.service.SettingsService          : Tasks not found
+2016-03-31 10:38:27.829  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.denissys.springboot.taskmanager.TaskManagerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-03-31 10:38:27.832  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-03-31 10:38:27.833  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2016-03-31 10:38:27.834  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2016-03-31 10:38:27.834  INFO   --- [main] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@243c4f91, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@291ae, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@61df66b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50eac852]
+2016-03-31 10:38:28.519  INFO 82300 --- [main] c.d.s.t.TaskManagerApplicationTests      : Starting TaskManagerApplicationTests on ns-denis.local with PID 82300 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/test-classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:38:28.520  INFO 82300 --- [main] c.d.s.t.TaskManagerApplicationTests      : No active profile set, falling back to default profiles: default
+2016-03-31 10:38:29.195  INFO 82300 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:38:30.504  INFO 82300 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 18
+2016-03-31 10:38:30.512  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.516  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.516  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.516  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.517  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.517  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.517  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.517  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.517  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.517  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.518  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.518  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.518 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.518  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.519  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.519  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.520  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.520  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.520  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.520  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.521  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.521  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.521  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.521  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.522  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.522  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.522  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.523  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.523  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.523  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.523  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.523  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.523  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.524  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.524  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.524  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.524  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.524  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.525  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.525  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.525  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.525  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.525  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.525  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.526  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.526  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.526  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.526  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.526  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.526  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.527  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.527  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.527  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.527  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.527  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.527  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.528  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.528  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.528  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.528  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.528  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.528  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.529  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.529  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.529  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.529  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.529  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.530  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.530  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.530  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.530  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.531  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.531  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.531  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.532  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.540  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.545  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.545  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.545  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.545  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.546  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.546  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.546  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.546  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.546  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.546  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.547 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.548  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.548  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.548  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.548  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.549  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.549  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.550  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.550 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.554  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.555  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.555  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.555  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.556  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.556  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.556 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.557  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.560  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.560  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.560  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.562  INFO 82300 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:38:30.568  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:38:30.568 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.568  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:38:30.570  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:38:30.571  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:38:30.571  INFO 82300 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:38:30.606  INFO 82300 --- [main] c.d.s.t.TaskManagerApplicationTests      : Started TaskManagerApplicationTests in 2.608 seconds (JVM running for 3.87)
+2016-03-31 10:38:30.614 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-price, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/price, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/price": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.614 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-category, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/category, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/category": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.614 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-template, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/template, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/template": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.614 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-product-type, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/product-type, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/product-type": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.614 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-sku, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/sku, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/sku": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.616 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-price, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/price, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/price": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.616 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-category, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/category, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/category": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.615 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-class, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/class, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/class": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.617 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-template, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/template, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/template": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.617 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-configuration, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/configuration, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/configuration": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.617 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-product-type, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/product-type, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/product-type": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.617 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-sku, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/sku, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/sku": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.618 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-class, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/class, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/class": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.618 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-brand, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/brand, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/brand": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.618 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-configuration, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/configuration, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/configuration": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.618 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-product, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/product, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/product": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.618 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: atg-department, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/department, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/department": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:38:30.619 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-brand, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/brand, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/brand": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.619 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-product, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/product, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/product": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:38:30.619 ERROR 82300 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: atg-department, job.path: http://localhost:8080/nsi-api-atg/api/v1.0/department, messageError: I/O error on POST request for "http://localhost:8080/nsi-api-atg/api/v1.0/department": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:44:10.983  INFO 82783 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:44:11.007  INFO 82783 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 82783 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:44:11.007 DEBUG 82783 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:44:11.007  INFO 82783 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:44:11.042  INFO 82783 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a9cd3b1: startup date [Thu Mar 31 10:44:11 BRT 2016]; root of context hierarchy
+2016-03-31 10:44:11.459  INFO 82783 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:44:11.890  WARN 82783 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:44:11.899  INFO 82783 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:44:11.945  INFO 82783 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:44:11.982  WARN 82783 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:44:11.994  INFO 82783 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:44:12.189  INFO 82783 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:44:12.193  INFO 82783 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:44:12.194  INFO 82783 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:44:12.194  INFO 82783 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:44:12.194  INFO 82783 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:44:12.585  INFO 82783 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:44:12.596  INFO 82783 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 2
+2016-03-31 10:44:12.600  INFO 82783 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:44:12.603  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:44:12.603  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:44:12.603  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:44:12.604  INFO 82783 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:44:12.604  INFO 82783 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:44:12.605 ERROR 82783 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:44:12.651 ERROR 82783 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: task-asdf, job.path: http://localhost:8080/asdf, messageError: I/O error on POST request for "http://localhost:8080/asdf": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:44:12.651 ERROR 82783 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: task-asdf, job.path: http://localhost:8080/asdf, messageError: I/O error on POST request for "http://localhost:8080/asdf": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:44:12.660  INFO 82783 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:44:12.664  INFO 82783 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 1.946 seconds (JVM running for 2.382)
+2016-03-31 10:44:37.289  INFO 82783 --- [Thread-1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a9cd3b1: startup date [Thu Mar 31 10:44:11 BRT 2016]; root of context hierarchy
+2016-03-31 10:44:37.292  INFO 82783 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-03-31 10:44:41.679  INFO 82820 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:44:41.727  INFO 82820 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 82820 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:44:41.727 DEBUG 82820 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:44:41.727  INFO 82820 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:44:41.771  INFO 82820 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c78324b: startup date [Thu Mar 31 10:44:41 BRT 2016]; root of context hierarchy
+2016-03-31 10:44:42.273  INFO 82820 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:44:42.833  WARN 82820 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:44:42.844  INFO 82820 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:44:42.895  INFO 82820 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:44:42.945  WARN 82820 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:44:42.964  INFO 82820 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:44:43.222  INFO 82820 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:44:43.226  INFO 82820 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:44:43.227  INFO 82820 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:44:43.227  INFO 82820 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:44:43.228  INFO 82820 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:44:43.817  INFO 82820 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:44:43.828  INFO 82820 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 2
+2016-03-31 10:44:43.833  INFO 82820 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:44:43.847  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:44:43.848  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:44:43.848  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:44:43.848  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:44:43.848  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:44:43.848  INFO 82820 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:44:43.850  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:44:43.850  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:44:43.850  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:44:43.850  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:44:43.850  INFO 82820 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:44:43.939  INFO 82820 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:44:43.944  INFO 82820 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 2.571 seconds (JVM running for 3.258)
+2016-03-31 10:45:01.480 ERROR 82820 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : NSI-600 Call job failed: [job.name: task-xpto, job.path: http://localhost:8080/xpto, messageError: I/O error on POST request for "http://localhost:8080/xpto": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:45:01.483 ERROR 82820 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: NSI-600 Call job failed: [job.name: task-xpto, job.path: http://localhost:8080/xpto, messageError: I/O error on POST request for "http://localhost:8080/xpto": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:45:37.079 ERROR 82820 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : Call job failed: [job.name: task-asdf, job.path: http://localhost:8080/asdf, messageError: I/O error on POST request for "http://localhost:8080/asdf": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+2016-03-31 10:45:37.080 ERROR 82820 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.HttpRestRequestException: Call job failed: [job.name: task-asdf, job.path: http://localhost:8080/asdf, messageError: I/O error on POST request for "http://localhost:8080/asdf": Connection refused; nested exception is java.net.ConnectException: Connection refused]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:49)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:47:05.698  INFO 83008 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:47:05.741  INFO 83008 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 83008 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:47:05.741 DEBUG 83008 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:47:05.741  INFO 83008 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:47:05.787  INFO 83008 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45efd90f: startup date [Thu Mar 31 10:47:05 BRT 2016]; root of context hierarchy
+2016-03-31 10:47:06.358  INFO 83008 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:47:06.886  WARN 83008 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:47:06.898  INFO 83008 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:47:06.954  INFO 83008 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:47:07.001  WARN 83008 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:47:07.017  INFO 83008 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:47:07.269  INFO 83008 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:47:07.274  INFO 83008 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:47:07.275  INFO 83008 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:47:07.276  INFO 83008 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:47:07.276  INFO 83008 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:47:07.823  INFO 83008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:47:07.833  INFO 83008 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 1
+2016-03-31 10:47:07.837  INFO 83008 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:47:07.846  INFO 83008 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:47:07.847  INFO 83008 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:47:07.847  INFO 83008 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:47:07.847  INFO 83008 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:47:07.847  INFO 83008 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:47:07.939  INFO 83008 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:47:07.950  INFO 83008 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 2.605 seconds (JVM running for 3.224)
+2016-03-31 10:47:16.858  INFO 83008 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : Connectivity problem to call [http://httpbin.org/ip]
+2016-03-31 10:47:16.861 ERROR 83008 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.ConnectivityFailException: Connectivity problem to call [http://httpbin.org/ip]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.validateConnectivity(TaskRunnable.java:59)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:36)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:47:53.089  INFO 83070 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:47:53.134  INFO 83070 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 83070 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:47:53.135 DEBUG 83070 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:47:53.135  INFO 83070 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:47:53.180  INFO 83070 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45efd90f: startup date [Thu Mar 31 10:47:53 BRT 2016]; root of context hierarchy
+2016-03-31 10:47:53.684  INFO 83070 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:47:54.223  WARN 83070 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:47:54.236  INFO 83070 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:47:54.291  INFO 83070 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:47:54.340  WARN 83070 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:47:54.358  INFO 83070 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:47:54.624  INFO 83070 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:47:54.630  INFO 83070 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:47:54.631  INFO 83070 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:47:54.631  INFO 83070 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:47:54.632  INFO 83070 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:47:55.207  INFO 83070 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:47:55.217  INFO 83070 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 1
+2016-03-31 10:47:55.223  INFO 83070 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:47:55.227  INFO 83070 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:47:55.227  INFO 83070 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:47:55.227  INFO 83070 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:47:55.227  INFO 83070 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:47:55.227  INFO 83070 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:47:55.229 ERROR 83070 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:47:55.293  INFO 83070 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:47:55.297  INFO 83070 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 2.512 seconds (JVM running for 3.04)
+2016-03-31 10:48:40.620  INFO 83132 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:48:40.665  INFO 83132 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 83132 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:48:40.666 DEBUG 83132 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:48:40.666  INFO 83132 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:48:40.719  INFO 83132 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b8729ff: startup date [Thu Mar 31 10:48:40 BRT 2016]; root of context hierarchy
+2016-03-31 10:48:41.226  INFO 83132 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:48:41.775  WARN 83132 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:48:41.786  INFO 83132 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:48:41.841  INFO 83132 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:48:41.891  WARN 83132 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:48:41.911  INFO 83132 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:48:42.193  INFO 83132 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:48:42.198  INFO 83132 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:48:42.199  INFO 83132 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:48:42.199  INFO 83132 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:48:42.199  INFO 83132 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:48:42.843  INFO 83132 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:48:42.854  INFO 83132 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 1
+2016-03-31 10:48:42.861  INFO 83132 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:48:42.866  INFO 83132 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:48:42.866  INFO 83132 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:48:42.866  INFO 83132 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:48:42.866  INFO 83132 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:48:42.866  INFO 83132 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:48:42.869 ERROR 83132 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:48:42.947  INFO 83132 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:48:42.952  INFO 83132 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 2.657 seconds (JVM running for 3.231)
+2016-03-31 10:50:17.263  INFO 83252 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:50:17.360  INFO 83252 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 83252 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:50:17.360 DEBUG 83252 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:50:17.360  INFO 83252 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:50:17.407  INFO 83252 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1458ed9c: startup date [Thu Mar 31 10:50:17 BRT 2016]; root of context hierarchy
+2016-03-31 10:50:17.908  INFO 83252 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:50:18.460  WARN 83252 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:50:18.472  INFO 83252 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:50:18.528  INFO 83252 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:50:18.576  WARN 83252 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:50:18.594  INFO 83252 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:50:18.869  INFO 83252 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:50:18.875  INFO 83252 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:50:18.876  INFO 83252 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:50:18.876  INFO 83252 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:50:18.876  INFO 83252 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:50:19.491  INFO 83252 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:50:24.449  INFO 83252 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 1
+2016-03-31 10:50:43.947  INFO 83252 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:50:43.955  INFO 83252 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:50:43.956  INFO 83252 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:50:43.957  INFO 83252 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:50:43.958 ERROR 83252 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:50:43.958  INFO 83252 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:50:43.959  INFO 83252 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:50:49.887  INFO 83252 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:50:49.892  INFO 83252 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 32.918 seconds (JVM running for 33.475)
+2016-03-31 10:50:54.552  INFO 83298 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.2.4.Final
+2016-03-31 10:50:54.600  INFO 83298 --- [main] c.d.s.t.TaskManagerApplication           : Starting TaskManagerApplication on ns-denis.local with PID 83298 (/Users/denissantos/dev/git/denissys/spring-boot-task-manager/core/target/classes started by denissantos in /Users/denissantos/dev/git/denissys/spring-boot-task-manager/core)
+2016-03-31 10:50:54.600 DEBUG 83298 --- [main] c.d.s.t.TaskManagerApplication           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2016-03-31 10:50:54.601  INFO 83298 --- [main] c.d.s.t.TaskManagerApplication           : No active profile set, falling back to default profiles: default
+2016-03-31 10:50:54.645  INFO 83298 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b8729ff: startup date [Thu Mar 31 10:50:54 BRT 2016]; root of context hierarchy
+2016-03-31 10:50:55.155  INFO 83298 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-31 10:50:55.706  WARN 83298 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2016-03-31 10:50:55.718  INFO 83298 --- [main] org.xnio                                 : XNIO version 3.3.4.Final
+2016-03-31 10:50:55.775  INFO 83298 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.4.Final
+2016-03-31 10:50:55.827  WARN 83298 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2016-03-31 10:50:55.844  INFO 83298 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2016-03-31 10:50:56.108  INFO 83298 --- [main] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-31 10:50:56.112  INFO 83298 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-31 10:50:56.113  INFO 83298 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-31 10:50:56.114  INFO 83298 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-31 10:50:56.114  INFO 83298 --- [main] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-31 10:50:56.760  INFO 83298 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-31 10:51:02.447  INFO 83298 --- [main] c.d.s.t.service.SettingsService          : Amount of tasks to schedule: 1
+2016-03-31 10:51:19.236  INFO 83298 --- [main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:51:19.250 ERROR 83298 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+java.lang.NullPointerException: null
+	at com.denissys.springboot.taskmanager.monitor.task.TaskMonitor.newExecution(TaskMonitor.java:19)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:34)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-03-31 10:52:03.044  INFO 83298 --- [main] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:52:03.046  INFO 83298 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:52:03.047  INFO 83298 --- [main] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:52:03.048  INFO 83298 --- [main] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:52:03.049  INFO 83298 --- [main] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:52:14.573  INFO 83298 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 9000 (http)
+2016-03-31 10:52:14.578  INFO 83298 --- [main] c.d.s.t.TaskManagerApplication           : Started TaskManagerApplication in 80.338 seconds (JVM running for 80.886)
+2016-03-31 10:53:30.008  INFO 83298 --- [pool-1-thread-1] c.d.s.t.service.TaskRepairService        : Recreating task: task-test
+2016-03-31 10:53:30.009  INFO 83298 --- [pool-1-thread-1] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 
+2016-03-31 10:53:30.009  INFO 83298 --- [pool-1-thread-1] c.d.s.t.scheduler.TaskScheduler          : Task: 
+2016-03-31 10:53:30.009  INFO 83298 --- [pool-1-thread-1] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.timeUnit: 
+2016-03-31 10:53:30.009  INFO 83298 --- [pool-1-thread-1] c.d.s.t.scheduler.TaskScheduler          : ScheduledExecutorTask.period: 
+2016-03-31 10:53:30.009  INFO 83298 --- [pool-1-thread-1] c.d.s.t.scheduler.TaskScheduler          : Sucess!
+2016-03-31 10:53:30.009  INFO 83298 --- [pool-1-thread-1] c.d.s.t.scheduler.TaskScheduler          : -----------------------------------------------------------------------------
+2016-03-31 10:53:30.023  INFO 83298 --- [ScheduledExecutorFactoryBean-1] c.d.s.taskmanager.runnable.TaskRunnable  : Connectivity problem to call [http://httpbin.org/post]
+2016-03-31 10:53:30.024 ERROR 83298 --- [ScheduledExecutorFactoryBean-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+com.denissys.springboot.taskmanager.exception.ConnectivityFailException: Connectivity problem to call [http://httpbin.org/post]
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.validateConnectivity(TaskRunnable.java:59)
+	at com.denissys.springboot.taskmanager.runnable.TaskRunnable.run(TaskRunnable.java:36)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

@@ -1,0 +1,29 @@
+# Server settings
+server:
+    port: 9000
+
+# Logging
+logging:
+    level:
+        org:
+            springframework:
+                web: ERROR
+        com:
+            netshoes: ERROR
+
+# Newrelic
+newrelic:
+    enable:
+        java.8: true
+    config:
+        file: newrelic.yml
+
+# Application settings
+settings:
+   taskMaxIdleTimeInMs: 3000
+   task:
+     - name: task-test
+       description: Job to start service ....
+       periodInMs: 1000
+       type: REST
+       path: http://httpbin.org/post
