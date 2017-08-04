@@ -2,15 +2,6 @@
 server:
     port: 9000
 
-# Logging
-logging:
-    level:
-        org:
-            springframework:
-                web: ERROR
-        com:
-            netshoes: ERROR
-
 # Newrelic
 newrelic:
     enable:
