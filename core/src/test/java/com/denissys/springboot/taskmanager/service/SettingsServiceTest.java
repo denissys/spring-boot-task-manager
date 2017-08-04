@@ -28,22 +28,4 @@ public class SettingsServiceTest {
 		settingsService.onApplicationEvent(null);
 	}
 	
-	public void onApplicationEvent_withTasksInYml_() {
-		doReturn(getTasks()).when(settings).getTask();
-		settingsService.onApplicationEvent(null);
-		
-	}
-
-	private List<Task> getTasks() {
-		List<Task> tasks = new ArrayList<>();
-		Task task = new Task();
-		task.setDescription("Xpto");
-		task.setName("xpto");
-		task.setPath("http://netshoes.com.br");
-		task.setPeriodInMs(10L);
-		task.setType(TaskType.REST);
-		tasks.add(task);
-		return tasks;
-	}
-
 }
